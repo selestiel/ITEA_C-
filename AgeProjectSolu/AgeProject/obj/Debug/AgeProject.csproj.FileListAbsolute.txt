@@ -1,0 +1,8 @@
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\bin\Debug\AgeProject.exe.config
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\bin\Debug\AgeProject.exe
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\bin\Debug\AgeProject.pdb
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\obj\Debug\AgeProject.Form1.resources
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\obj\Debug\AgeProject.Properties.Resources.resources
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\obj\Debug\AgeProject.csproj.GenerateResource.cache
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\obj\Debug\AgeProject.exe
+D:\CPPDEV\VSComB#\AgeProjectSolu\AgeProject\obj\Debug\AgeProject.pdb
