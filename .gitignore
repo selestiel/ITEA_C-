@@ -10,6 +10,20 @@
 *.userosscache
 *.sln.docstates
 
+*.zip
+*.7zip
+
+*.gitattributes
+*ConsoleApp1.1.a/
+*ConsoleApp1Solution/
+*ConsoleApp2/
+*ConsoleApp3a/
+*ConsoleAppLes2Solu/
+*SmallBasicLibrary.dll
+*WebApplication1Sol/
+
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
