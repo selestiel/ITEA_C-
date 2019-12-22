@@ -28,16 +28,16 @@ namespace L6TaskA5
             Console.WriteLine("Choose your region start: ");
             int S = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Choose your region start: ");
+            Console.WriteLine("Choose your region end: ");
             int E = Convert.ToInt32(Console.ReadLine());
-            int i = 0;
+            int i=0;
             int max = 0;
             for (i = S; i < E; i++)
             {
                 if (max < arg[i])
                 {
                     max = arg[i];
-                    Console.WriteLine("{0}", i);
+                    
                 }
                 
             }
@@ -50,9 +50,9 @@ namespace L6TaskA5
             Console.WriteLine("Choose your region start: ");
             int S = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Choose your region start: ");
+            Console.WriteLine("Choose your region end: ");
             int E = Convert.ToInt32(Console.ReadLine());
-            int i = 0;
+            int i=0;
             int min = 0;
             for (i = S; i < E; i++)
             {
