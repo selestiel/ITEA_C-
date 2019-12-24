@@ -10,7 +10,7 @@ namespace L9TaskA1
     {
         static void Main(string[] args)
         {
-            IPrintable[] array = new IPrintable[3];
+            IPrintable[] array = new IPrintable[10];
             for(int i=0; i < array.Length; i++)
             {
                 array[i].Print();
@@ -26,7 +26,7 @@ namespace L9TaskA1
     {
         public void Print()
         {
-            
+            Console.WriteLine("Printing:");
         }
 
     }
@@ -35,6 +35,7 @@ namespace L9TaskA1
        
         public void Print()
         {
+            Console.WriteLine("Printing:");
 
         }
         public void Print_mag(IPrintable[] printable)

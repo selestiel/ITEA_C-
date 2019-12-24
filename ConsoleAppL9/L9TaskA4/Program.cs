@@ -12,4 +12,8 @@ namespace L9TaskA4
         {
         }
     }
+    class AbstractHandler
+    {
+
+    }
 }
