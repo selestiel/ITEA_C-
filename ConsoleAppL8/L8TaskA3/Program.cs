@@ -15,18 +15,25 @@ namespace L8TaskA3
             GoodPupil B = new GoodPupil();
             BadPupil C = new BadPupil();
             ClassRoom CR = new ClassRoom(S, A, B, C);
-            Console.WriteLine(CR);
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
     class ClassRoom
     {
-        public ClassRoom(Pupil A, Pupil B, Pupil C, Pupil D)
+        public ClassRoom( ExcelentPupil A, GoodPupil B, GoodPupil C, BadPupil D)
         {
+            Console.WriteLine("Student A");
             A.Study();
             A.Write();
+
+            Console.WriteLine("Student B");
             B.Read();
-            C.Read();
+
+            Console.WriteLine("Student C");
+            C.Write();
+
+            Console.WriteLine("Student D");
             D.Relax();
         }
     }
@@ -35,29 +42,34 @@ namespace L8TaskA3
         public void Study()
         {
 
+            Console.WriteLine("Has to study");
         }
         public void Read()
         {
 
+            Console.WriteLine("Has to read");
         }
         public void Relax()
         {
 
+            Console.WriteLine("Has to Relax");
         }
         public void Write()
         {
 
+            Console.WriteLine("Has to write");
         }
     }
     class ExcelentPupil : Pupil
     {
         public new void Study()
         {
-
+            Console.WriteLine("Studies");
         }
         public new void Write()
         {
 
+            Console.WriteLine("Writes");
         }
     }
     class GoodPupil : Pupil
@@ -65,13 +77,15 @@ namespace L8TaskA3
         public new void Read()
         {
 
+            Console.WriteLine("Reads");
         }
     }
     class BadPupil : Pupil
     {
         public new void Relax()
         {
-           
+
+            Console.WriteLine("Relaxes");
         }
     }
 }
