@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace L8TaskA4
 {
@@ -10,19 +6,22 @@ namespace L8TaskA4
     {
         static void Main(string[] args)
         {
-            string[] SC = { "Math", "Phys", "Lang" };
-
-            Student A = new Student("Mark", "Wall", 2000,SC);
-            Student B = new Student("Evan", "Mosk",1995,SC);
-            Student C = new Student("Cang","Gool",2002,SC);
-            Student D = new Student("Bak","Ram",1998,SC);
-            Student E = new Student("Chuck","Slow",1990,SC);
+            string[] SC = { "Math", "Phys", "Lang", "Bio", "Prog" };
+            Student A = new Student("Mark", "Wall", 2000, SC);
+            Student B = new Student("Evan", "Mosk", 1995, SC);
+            Student C = new Student("Cang", "Gool", 2002, SC);
+            Student D = new Student("Bak", "Ram", 1998, SC);
+            Student E = new Student("Chuck", "Slow", 1990, SC);
             Student[] SA = { A, B, C, D, E };
             Teacher AA = new Teacher("Joe", "Kram", 1950, SA);
             Teacher SS = new Teacher("Cole", "Woghn", 1960, SA);
             PeopleInfo ninfo = new PeopleInfo();
-            Person[] PS = { AA, SS };
-            ninfo.Get_Info(PS);
+            Person[] AS = { AA, SS };
+            ninfo.Get_Info(AS, SA, SC);
+            Array.Reverse(SC);
+            Console.WriteLine();
+            Person[] BS = { SS, AA };
+            ninfo.Get_Info(BS, SA, SC);
             Console.ReadKey();
         }
     }
@@ -40,20 +39,7 @@ namespace L8TaskA4
     }
     class Student : Person
     {
-        public string[] StudyCources
-        {
-            get
-            {
-                return StudyCources;
-            }
-            set
-            {
-                for (int i = 0; i < StudyCources.Length;i++)
-                {
-                StudyCources[i] = Convert.ToString(value);
-                }
-            }
-        }
+        public string[] StudyCources { get; set; }
         public void DisplayStudyCources()
         {
             for (int i = 0; i < StudyCources.Length; i++)
@@ -61,53 +47,35 @@ namespace L8TaskA4
                 Console.WriteLine(" {0} ", StudyCources[i]);
             }
         }
-        public Student(string N,string SN, int BY,string[] SC)
-            :base(N,SN,BY)
+        public Student(string N, string SN, int BY, string[] SC)
+            : base(N, SN, BY)
         {
             StudyCources = SC;
         }
     }
     class Teacher : Person
     {
-        Student[] StudentsArray
-        {
-            get
-            {
-                return StudentsArray;
-            }
-            set
-            {
-                StudentsArray = value;
-                
-            }
-
-        }
-        public Teacher(string N,string SN, int BY, Student[] SA)
-            :base(N,SN,BY)
+        Student[] StudentsArray { get; set; }
+        public Teacher(string N, string SN, int BY, Student[] SA)
+            : base(N, SN, BY)
         {
             StudentsArray = SA;
         }
     }
     class PeopleInfo
     {
-        Person[] PeopleArray
+        Person[] PeopleArray { get; set; }
+
+        public void Get_Info(Person[] PST, Person[] PSS, string[] PSC)
         {
-            get
+            for (int i = 0; i < PST.Length; i++)
             {
-                return PeopleArray;
+                Console.WriteLine("INFO: Born: {0}, Name: {1}, Surname: {2}", PST[i].BirthYear, PST[i].Name, PST[i].Surname);
             }
-            set
+            for (int i = 0; i < PSS.Length; i++)
             {
-                PeopleArray = value;
+                Console.WriteLine("INFO: Born: {0}, Name: {1}, Surname: {2}, Courses: {3}", PSS[i].BirthYear, PSS[i].Name, PSS[i].Surname, PSC[i]);
             }
-        }
-        public void Get_Info(Person[] PSP)
-        {
-            for(int i = 0;  i < PSP.Length; i++)
-            {
-                Console.WriteLine(PSP[i]);
-            }
-            
         }
     }
 }
