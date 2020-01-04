@@ -25,7 +25,7 @@ namespace L8TaskA2
             C.Volume = C.Get_C_Volume(pi);
             B.B_Radius = 4.0;
             B.Volume = B.Get_B_Volume(pi);
-            Console.WriteLine("Volumes are: pi {0}  cy {1}  ba {2}",P.Get_Volume,C.Get_Volume,B.Get_Volume);
+            Console.WriteLine("Volumes are: pi {0}  cy {1}  ba {2}",P.Get_Volume(),C.Get_Volume(),B.Get_Volume());
             Console.WriteLine("Adding balls: ");
             n_box.Add(B);
             Console.WriteLine("Adding cylinders: ");
