@@ -1,0 +1,17 @@
+!Animation
+Id: 4df38f67-4324-4609-ad28-47cb26d95dbf
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Animation/Ladder_Loop.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 45645e04-e6a9-43a2-b65d-1ba89bfa3e2c:Models/mannequinModel Skeleton
+RootMotion: false
+PreviewModel: 3c4b4753-a710-4cdf-9eb9-69dc49ff1d9e:Models/mannequinModel
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:00.6330000

@@ -1,0 +1,8 @@
+!Texture
+Id: dca6b147-ff1f-47d5-965e-35cc8dacd366
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/Bullettrail01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false

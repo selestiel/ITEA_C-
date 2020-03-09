@@ -1,0 +1,13 @@
+!Model
+Id: da2d9684-4ca3-4f22-94bd-32572c2f198e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Models/Pendilum0x2x0Ball.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2a4c62502d84612cd0bc56d6d0bc56d6:
+        Name: GridMT
+        MaterialInstance:
+            Material: 7e5e06a8-e1e0-4718-bf23-9e8723e08523:Materials/GridMT
+Modifiers: {}

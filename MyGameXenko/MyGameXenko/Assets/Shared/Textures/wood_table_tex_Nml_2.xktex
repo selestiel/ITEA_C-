@@ -1,0 +1,6 @@
+!Texture
+Id: 378873fa-834a-4cd1-9075-445e9d576192
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/wood_table_tex_Nml.dds
+Type: !NormalMapTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: bd9d8601-ce4c-4982-b3a0-2aef1d9ede15
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Stand/gum01_gls.dds
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

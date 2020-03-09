@@ -1,0 +1,24 @@
+!PrefabAsset
+Id: cc58a057-ce49-488d-a4b7-0a9adff274bd
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! b9aafee5-a200-47d3-a72b-f909d405cef3
+    Parts:
+        -   Entity:
+                Id: b9aafee5-a200-47d3-a72b-f909d405cef3
+                Name: Stand
+                Components:
+                    2c6718f754ab4b4c8018964810d5f85c: !TransformComponent
+                        Id: f718672c-ab54-4c4b-8018-964810d5f85c
+                        Position: {X: 0.0, Y: 0.292, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 0.5, Z: 0.5}
+                        Children: {}
+                    5b84432270eab34f99ce0eecca9e493f: !ModelComponent
+                        Id: 2243845b-ea70-4fb3-99ce-0eecca9e493f
+                        Model: 4a6e706a-8184-43ba-a692-d2520374a07d:Models/Stand
+                        Materials:
+                            9a2c16f1050f7948b75e25f0c55d6ff8~0: 18103b90-ee0a-4308-9b45-74bd3c7385a4:Materials/DullSilver
+                            5e8fbcffa5b98942bd011dcf2d7925c1~1: 99a409d3-34c3-4575-a273-028ae51bd5e5:Materials/RedCoating

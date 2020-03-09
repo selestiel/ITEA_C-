@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: ab199b3a-b7fe-4526-bb6a-f521ebf62922
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+CubeMap: aceb3b9a-cd5d-4556-9c49-ebbe7c22c63d:sky

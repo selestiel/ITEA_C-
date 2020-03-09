@@ -1,0 +1,8 @@
+!Texture
+Id: 2ea4c237-8cd2-4af7-b335-854947ea7922
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/Aura01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false

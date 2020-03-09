@@ -1,0 +1,8 @@
+!Texture
+Id: 5f5119be-0231-4c4a-ba98-7b712c091a26
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/Hit01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false

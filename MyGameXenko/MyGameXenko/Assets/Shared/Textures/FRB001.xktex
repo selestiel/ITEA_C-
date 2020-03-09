@@ -1,0 +1,8 @@
+!Texture
+Id: 2bd49430-25b4-4e28-8439-670362150797
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/Bonfire/FRB001.dds
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false
